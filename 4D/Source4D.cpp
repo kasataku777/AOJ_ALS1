@@ -23,7 +23,7 @@ int solve() {
 	ll left = 0;
 	ll right =100000 * 10000;
 	ll mid;
-	while (left < right) {
+	while (left+1 < right) {
 		mid = (left + right) / 2;
 		int v = check(mid); //
 		if (v >= n)right = mid;

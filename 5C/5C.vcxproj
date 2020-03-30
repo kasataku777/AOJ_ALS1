@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{2C8CE39D-5383-4376-9AE1-D3BAB8AE0759}</ProjectGuid>
+    <ProjectGuid>{88DE9E86-122E-444C-89F5-EC216BB01804}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My5A</RootNamespace>
+    <RootNamespace>My5C</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source5A.cpp" />
+    <ClCompile Include="5C.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
